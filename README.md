@@ -1,6 +1,6 @@
 # FirstCrudG2
 
-## Installation 
+## Installation
 
 Installation de la dernière version stable avec les dépendances courantes pour un site web
 
@@ -108,7 +108,6 @@ APP_SECRET=VotreVraiClefSecrete
 
 #### Lien vers la database
 
-
 Pour le moment la database activée est en PostgreSQL, on va la commenter avec #
 
 ```env
@@ -123,8 +122,6 @@ DATABASE_URL="mysql://root:@127.0.0.1:3306/firstcrudg2?serverVersion=8.0.31&char
 
 ###< doctrine/doctrine-bundle ###
 ```
-
-
 
 ### Création de la database
 
@@ -145,6 +142,7 @@ puis
     php bin/console make:crud Article
 
 Fichiers installés :
+
 ```
 created: src/Controller/ArticleController.php
  created: src/Form/ArticleType.php
@@ -156,3 +154,5 @@ created: src/Controller/ArticleController.php
  created: templates/article/show.html.twig
  created: tests/Controller/ArticleControllerTest.php
 ```
+
+hello
